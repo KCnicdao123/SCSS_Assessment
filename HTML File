@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>LJOR UAE</title>
-    <link rel="stylesheet" href="StyleSheet.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="StyleSheet.css" media="screen"/>
 </head>
 <body>
     <!--Container for Nav Bar-->
@@ -92,7 +93,7 @@
             <h3 class="serviceDay">SATURDAY</h3> <!--service day-->
             <div class="textAdjust">
                 <br /><br /><br /><br /><br />
-                <p>Voice Intl, GGICO Metro Station, Dubai</p> <!--location-->
+                <p>Voice Intl, GGICO Metro Station</p> <!--location-->
                 <p>8 - 10 p.m.</p> <!--time-->
             </div>
         </div>
@@ -102,7 +103,7 @@
             <h3 class="serviceDay">SATURDAY</h3> <!--Service day-->
             <div class="textAdjust">
                 <br /><br /><br /><br /><br />
-                <p>Tower C Electra Street , Abu Dhabi</p> <!--location-->
+                <p>Tower C Electra Street</p> <!--location-->
                 <p>10 a.m. - 12 p.m.</p> <!--time-->
             </div>
         </div>
@@ -110,7 +111,7 @@
 
     <!--container for Next Step Title-->
     <div class="nxtContainer">
-        <h2 class="nxtStep">TAKE YOUR NEXT STEP</h2>
+        <h2 class="nxtStep">TAKE YOUR NEXT STEP!</h2>
     </div>
 
     <!--Container for section 5-->
@@ -158,7 +159,7 @@
 
             <div>
                  <!--Giving-->
-                <h3 class="deets_title">Learn the Heart of Giving</h3>
+                <h3 class="deets_title">The Heart of Giving</h3>
                 <br /><br /><br /><br />
                 <button type="button" class="nxtStep_btn">Learn More</button> <!--Offering button-->
             </div>
