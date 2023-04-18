@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LJOR UAE</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <!--Container for Nav Bar-->
+    <div class="container">
+        <!--Logo and Name-->
+        <a href="#"><img src="Logo/LJOR SEAL ALPHA-mac - Copy.gif" class="menuLogo" /></a>
+        <h2>Lord Jesus Our Redeemer</h2>
+        <!--Nav Bar-->
+        <ul>
+            <li>
+                <!--Find a church navigation-->
+                <a href="#" class="menuContent">Find A Church</a>
+            </li>
+            <li>
+                <!--Connect Group navigation-->
+                <a href="#" class="menuContent">Get Connected</a>
+            </li>
+            <li>
+                <!--About us navigation-->
+                <a href="#" class="menuContent">About Us</a>
+            </li>
+            <li>
+                <!--Contact us navigation-->
+                <a href="#" class="menuContent">Contact Us</a>
+            </li>
+            <li>
+                <!--Prayer Request navigation-->
+                <a href="#" class="menuContent">Prayer Request</a>
+            </li>
+        </ul>
+        <!--Link to Live Streams-->
+        <h3 class="content2"><a href="#" class="link">Live</a></h3>
+        <!--Link to change language-->
+        <img src="Icons/pngwing.com.png" class="langIcon" />
+        <h3 class="content3"><a href="#" class="link">English</a></h3>
+    </div>
+
+
+
+
+    <!--Container for Bumper Video-->
+    <div class="container2">
+        <video controls muted loop autoplay>
+            <source src="Videos/Family Matters_Bumper_final.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+
+    <!--Container for section 3-->
+    <div class="container3">
+        <div class="missionContainer">
+            <!--Container for mission-->
+            <!--Church Mission-->
+            <span class="mission">We Exist to</span> <br /><br />
+            <span class="mission">Love God and</span><br /><br />
+            <span class="mission">Lead People to Him</span>
+
+            <!--Container for mission satement-->
+            <div class="missionStatement">
+                <!--Church Mission Statement-->
+                <br /><p>We are committed to love God, love one another,</p>
+                <p>to proclaim, and advance God's Kingdom to the ends</p>
+                <p>of the world.</p>
+            </div>
+        </div>
+
+        <!--Image 1-->
+        <img src="Images/image.png" class="img1" />
+    </div>
+
+    <!--Container for section 4-->
+    <div class="container4">
+        <!--Join Us Live Button-->
+        <div class="btnCon"><button type="button">JOIN US LIVE</button></div>
+        <!--Vertical divider-->
+        <div class="vLine"></div>
+
+        <!--Dubai Title-->
+        <div class="dubaiContainer"><h2 class="cityLive">DUBAI</h2></div>
+
+        <!--Abu Dhabi Title-->
+        <div class="ADcontainer"><h2 class="cityLive">ABU DHABI</h2></div>
+
+        <!--Dubai Service Details (location & time)-->
+        <div class="dubaiDeets">
+            <h3 class="serviceDay">SATURDAY</h3> <!--service day-->
+            <div class="textAdjust">
+                <br /><br /><br /><br /><br />
+                <p>Voice Intl, GGICO Metro Station, Dubai</p> <!--location-->
+                <p>8 - 10 p.m.</p> <!--time-->
+            </div>
+        </div>
+
+        <!--AUH Service Details (location & time)-->
+        <div class="auhDeets">
+            <h3 class="serviceDay">SATURDAY</h3> <!--Service day-->
+            <div class="textAdjust">
+                <br /><br /><br /><br /><br />
+                <p>Tower C Electra Street , Abu Dhabi</p> <!--location-->
+                <p>10 a.m. - 12 p.m.</p> <!--time-->
+            </div>
+        </div>
+    </div>
+
+    <!--container for Next Step Title-->
+    <div class="nxtContainer">
+        <h2 class="nxtStep">TAKE YOUR NEXT STEP</h2>
+    </div>
+
+    <!--Container for section 5-->
+    <div class="container5">
+        <!--Container for images-->
+        <div>
+            <div>
+                <img class="img2" src="Images/DSC_0492.JPG" />
+            </div>
+
+            <div>
+                <img class="img3" src="Images/DSC_0343.JPG" />
+            </div>
+
+            <div>
+                <img class="img4" src="Images/Untitled.png" />
+            </div>
+        </div>
+
+        <!--Container for details-->
+        <div class="nxtStep_deets">
+            <div>
+                <!--Join a Connect Group-->
+                <h3 class="deets_title">Get Connected</h3>
+                <br /><br /><br /><br />
+                <button type="button" class="nxtStep_btn">Join a Connect Group</button> <!--Join CG button-->
+                <hr />
+            </div>
+
+            <div>
+                <!--Join Service-->
+                <h3 class="deets_title">Join Us in Service</h3>
+                <br /><br /><br /><br />
+                <button type="button" class="nxtStep_btn">Find a Ministry</button> <!--Find a Ministry button-->
+                <hr />
+            </div>
+
+            <div>
+                <!--Water Baptism-->
+                <h3 class="deets_title">Water Baptism</h3>
+                <br /><br /><br /><br />
+                <button type="button" class="nxtStep_btn">Be Baptized</button> <!--Water Baptism button-->
+                <hr />
+            </div>
+
+            <div>
+                 <!--Giving-->
+                <h3 class="deets_title">Learn the Heart of Giving</h3>
+                <br /><br /><br /><br />
+                <button type="button" class="nxtStep_btn">Learn More</button> <!--Offering button-->
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
